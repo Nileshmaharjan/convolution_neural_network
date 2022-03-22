@@ -6,17 +6,21 @@
 - If predictions are totally off, loss functions output a higher number.
 - Bascially, tell algorithm what types of errors you care about and what sort of errors to trade off against
 - If they're pretty good, outputs to a lower number.
-	![total](https://user-images.githubusercontent.com/41963640/159428099-c8df09a4-e777-450a-90ea-a2bbd21c9286.PNG)
+
+  ![total](https://user-images.githubusercontent.com/41963640/159428099-c8df09a4-e777-450a-90ea-a2bbd21c9286.PNG)
 
 ## Multiclass SVM loss
 - Inspired by Support Vector Machines, which uses scoring function f to map out data points to numerical scores for each class labels.
-![svm_loss](https://user-images.githubusercontent.com/41963640/159428479-64093a73-f7cf-4e4d-ad14-26343dc9b163.PNG)
+
+ ![svm_loss](https://user-images.githubusercontent.com/41963640/159428479-64093a73-f7cf-4e4d-ad14-26343dc9b163.PNG)
 	
 ## Hinge Loss
 - The points that are farther away from the decision margins have a greater loss value, thus penalising those points.
+
 ![hinge_loss](https://user-images.githubusercontent.com/41963640/159429156-5fd5b383-a808-40b9-9353-1a4670ea151e.PNG)
 
 ## Calculating Multiclass SVM loss
+
 ![multiclass_svm_loss](https://user-images.githubusercontent.com/41963640/159429338-471d0406-9b33-4851-a5b9-29d409e79ab4.PNG)
 
 ## Questions Multiclass SVM loss
