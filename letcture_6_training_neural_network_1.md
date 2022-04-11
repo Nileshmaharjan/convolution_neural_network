@@ -32,5 +32,26 @@ Problem
 
 
 
+Leaky ReLU
+f(x) = max (0.01x,x)
+
+- Does not saturate
+- Computationally efficient
+- Converges much faster than sigmoid/tanh in practice 
+- will not die 
+
+Parametric Rectifier (PReLU)
+
+f(x) = max(alpha * x, x)
+
+
+Exponential Linear Units (ELU)
+
+- All benefits of ReLU
+- Closer to zero mean outputs 
+- Negative saturation regime compared with Leaky ReLU adds some robustness to noise 
+
+
+
 
 
