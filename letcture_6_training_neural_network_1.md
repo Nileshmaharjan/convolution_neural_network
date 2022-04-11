@@ -93,6 +93,41 @@ A: All neurons will do the same thing, gets updated the same way. But, we want e
 ## picture 
 
 
+# Xavier Initialization (start with this but breaks when using ReLU, can be tackled though!)
+## picture
+
+# Papers on Weight Initialization 
+
+Proper initialization is an active area of research…
+Understanding the difficulty of training deep feedforward neural networks
+by Glorot and Bengio, 2010
+Exact solutions to the nonlinear dynamics of learning in deep linear neural networks by
+Saxe et al, 2013
+Random walk initialization for training very deep feedforward networks by Sussillo and
+Abbott, 2014
+Delving deep into rectifiers: Surpassing human-level performance on ImageNet
+classification by He et al., 2015
+Data-dependent Initializations of Convolutional Neural Networks by Krähenbühl et al., 2015
+All you need is a good init, Mishkin and Matas, 2015
+
+
+# Batch Normalization 
+- To make each dimension unit gaussain , apply :
+
+## picture
+
+- Usually inserted after Fully Connected or Convolutional Layers and befoe nonlinearity
+
+## picture 
+
+What it does?
+
+- Improves gradient flow through the network
+- Allows higher learning rates
+- Reduces the strong dependence on initialization
+- Acts as a form of regularization in a funny way, and slightly reduces the need for dropout, maybe
+
+
 
 
 
