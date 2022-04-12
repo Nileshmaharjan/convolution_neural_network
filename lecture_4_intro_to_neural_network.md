@@ -58,6 +58,12 @@ Backward
 - Function that you use to get the output of node. It is also known as Transfer Function.
 ![af](https://user-images.githubusercontent.com/41963640/160392216-b6ff29a3-4426-46cf-9466-b1a90c897545.PNG)
 
+
+## ReLU
+- Operates with max(0,z) 
+- Solves vanishing gradient problem 
+- Dead neurons for values which are negative.
+
 ## Neural networks: Architectures
 ![nn3](https://user-images.githubusercontent.com/41963640/160392330-b13ea0ca-73eb-4ed9-aa27-e68f7be155b6.PNG)
 
