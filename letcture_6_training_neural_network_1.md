@@ -87,10 +87,32 @@ TLDR: In practice for Images: center only
 Q: what happens when W=0 init is used?
 A: All neurons will do the same thing, gets updated the same way. But, we want every neuron to learn different things
 
+## picture 
+
 - First idea: Small random numbers
 (gaussian with zero mean and 1e-2 standard deviation)
+- Weights should not be same, or else all neurons will do same thing.
 
-## picture 
+Strategy 1 
+
+- Weights are basically distributed using Uniform distribution (-1/√fin , 1/√fin )
+
+Strategy 2
+Xavier Normal
+- Weights are distributed using W should be between N(0=mean, σ=SD) (N= Normal distribution)
+- σ = √(2/fan_in + fan_out)
+
+Xavier Uniform 
+-  Weights are basically distributed using Uniform distribution (-√6/√(fin + fout) , √6/√(fin + fout) )
+
+Stragey 3
+- He init(ReLu)
+He Unifrom 
+- Weights are basically distributed using Uniform distribution (-√6/√(fin) , √6/√(fin) )
+
+He Normal
+- Weights are distribtued using normal distribution)
+-  σ = √(2/fan_in)
 
 
 # Xavier Initialization (start with this but breaks when using ReLU, can be tackled though!)
