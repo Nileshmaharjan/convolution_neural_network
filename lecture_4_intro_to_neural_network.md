@@ -12,8 +12,13 @@
 - The sigmoid function is a special form of the logistic function and is usually denoted by σ(x) or sig(x). 
 -  It is given by:
     - σ(x) = 1/(1+exp(-x))
+    - The values lie between (0 to 1)
+    - The derivatives value lie between (0 to .25)
 - The sigmoid function is used as an activation function in neural networks.When the activation function for a neuron is a sigmoid function it is a guarantee that the output of this unit will always be between 0 and 1. Also, as the sigmoid is a non-linear function, the output of this unit would be a non-linear function of the weighted sum of inputs. Such a neuron that employs a sigmoid function as an activation function is termed as a sigmoid unit.
 ![bp4](https://user-images.githubusercontent.com/41963640/160387263-957815e5-6df9-438a-a621-fb54f1c1d7d9.PNG)
+
+## Vanishing gradient problem
+- Te derivative of the sigmoid function ranges between 0 to 0.25. As the number of layers increase, the value obtained after multiplying derivates(using chain rule) is very very small, thus not helping in changing the weights as the old weight and the new weight are approximately similar or equal.
 
 
 
