@@ -12,6 +12,8 @@ A Generative Model is a powerful way of learning any kind of data distribution u
 
 - PixelRNNs are generative neural networks that sequentially predicts the pixels in an image along the two spatial dimensions
 
+Reference Link: https://towardsdatascience.com/auto-regressive-generative-models-pixelrnn-pixelcnn-32d192911173
+
 
 ## PixelCNN
 
@@ -28,6 +30,7 @@ Reference Link: https://towardsdatascience.com/auto-regressive-generative-models
 - The idea is to learn a low-dimensional latent representation of the training data called latent variables (variables which are not directly observed but are rather inferred through a mathematical model) which we assume to have generated our actual training data.
 
 Reference Link: https://towardsdatascience.com/deep-generative-models-25ab2821afd3
+https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73
 
 ## Generative Adversarial Network
 
